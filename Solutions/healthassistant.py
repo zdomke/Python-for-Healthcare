@@ -5,7 +5,7 @@ import os
 import time
 import json
 
-with open("config.json") as f:
+with open("keys.json") as f:
     conf = json.load(f)
 
 openai.api_key = conf['api_key']
